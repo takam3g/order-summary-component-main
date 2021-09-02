@@ -129,17 +129,46 @@ footer a:hover {
 
 @media screen and (min-width: 600px) {
 
+    * {
+        font-size: 16px;
+    }
+
     body {
         background: url(images/pattern-background-desktop.svg) no-repeat;
+        background-size: contain;
         background-color: hsl(225, 100%, 94%);
+        max-width: unset;
     }
 
     .wrapper {
-        width: 400px;
-        margin: 7em auto 5em auto;
+        width: 450px;
+        margin: 6.5em auto 5em auto;
+    }
+
+    header {
+        height: 220px;
     }
 
     main {
         width: 80%;
+        margin: 3em auto 2em auto;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .plan-card {
+        padding: 1.5em;
+        margin-bottom: 1.8em;
+    }
+
+    button {
+        padding: 0.8em;
+        margin-bottom: 1.8em;
+    }
+
+    main > a {
+        margin-bottom: 3em;
     }
 }
