@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+body {
+    background: url(images/pattern-background-mobile.svg) no-repeat;
+    background-size: contain;
+    max-width: 375px;
+    margin: 0 auto;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.wrapper {
+    width: calc(375px * 0.85);
+    margin: 4.5em auto 3em auto;
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 0 1em 3em 0.2em hsla(222, 25%, 26%, 0.2);
+}
+
+header {
+    background: url(images/illustration-hero.svg) no-repeat center / cover;
+    height: 170px;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+main {
+    width: 90%;
+    margin: 2em auto 1em auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+    font-weight: 900;
+    font-size: 20px;
+    color: hsl(222, 25%, 26%);
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.plan-card {
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 27% 53% 20%;
+    align-items: center;
+    text-align: start;
+    margin: 1.5em auto;
+}
+
+.plan p:first-child {
+    color: hsl(222, 25%, 26%);
+    font-weight: 700;
+}
+
+.plan-card a {
+    justify-self: end;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+.plan-card a:hover {
+    color: hsl(245, 80%, 70%);
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0 1em 1em 0.2em hsla(245, 75%, 52%, 0.2);
+    border: none;
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 1.5em;
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(245, 80%, 70%);
+}
+
+main > a {
+    display: inline-block;
+    margin-bottom: 2em;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+main > a:hover {
+    color: hsl(222, 25%, 26%);
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 12px;
+    color: hsl(222, 25%, 26%);
+}
+
+footer a {
+    font-size: 12px;
+    color: hsl(245, 75%, 52%);
+}
+
+footer a:hover {
+    color: hsl(245, 80%, 70%);
+    text-decoration: none;
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+    body {
+        background: url(images/pattern-background-desktop.svg) no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    .wrapper {
+        width: 400px;
+        margin: 7em auto 5em auto;
+    }
+
+    main {
+        width: 80%;
+    }
+}
