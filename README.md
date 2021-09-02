@@ -8,7 +8,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - Build out the project to the designs provided (Please see the disign folder and style-guide)
 
 # My Solution - Screenshot
-![screenshot of my solution](https://user-images.githubusercontent.com/84117994/131858474-61c59374-7207-4212-8c46-8d2727ea16cf.png)
+![screenshot of my solution](https://user-images.githubusercontent.com/84117994/131866283-147ef598-a003-45b5-a1bc-7e9ab283d1cc.png)
 
 # My Solution - URL: 
 - https://order-summary-component-main-kohl.vercel.app/
