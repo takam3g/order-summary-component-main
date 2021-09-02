@@ -11,8 +11,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 ![screenshot of my solution](https://user-images.githubusercontent.com/84117994/131858474-61c59374-7207-4212-8c46-8d2727ea16cf.png)
 
 # My Solution - URL: 
-- https://profile-card-component-phi-opal.vercel.app/
-- https://www.frontendmentor.io/solutions/profile-card-component--4Cdp08Zx
+- https://order-summary-component-main-kohl.vercel.app/
+- https://www.frontendmentor.io/solutions/order-summary-component-UbbYdr4pO
 
 # Built with
 - Grid
